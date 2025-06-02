@@ -1,0 +1,353 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  background: #f5f5f5;
+}
+
+h1 {
+  padding-top: 71px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  text-align: left;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.03em;
+  color: rgb(18, 18, 18);
+}
+
+section {
+  padding-bottom: 150px;
+}
+
+section:nth-of-type(2) {
+  padding-bottom: 0;
+}
+
+section:last-child {
+  padding: 150px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  background-color: #ffffff;
+  padding: 0 125px;
+}
+
+/* Header */
+
+.header__logo__img {
+  display: block;
+  text-decoration: none;
+}
+
+.header__navigation {
+  padding: 35.82px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  gap: 61px;
+}
+
+.header__nav__button {
+  display: block;
+  color: rgba(18, 18, 18, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__nav__button:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1px;
+  opacity: 0.5;
+}
+
+/* Interior */
+
+.interior__img {
+  margin-top: 30px;
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  background-image: url("/Metrica/resource/image/Rectangle\ 1.png");
+}
+
+.interior__img__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+/* About */
+
+.about {
+  max-width: 1048px;
+}
+
+.about__text {
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: 400;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.about__btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 23px 40px;
+  font-size: 19px;
+  border: 1px solid rgb(173, 24, 24);
+  border-radius: 5px;
+  background: rgb(173, 24, 24);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.about__btn:active {
+  transform: scale(0.98);
+}
+
+/* Project */
+
+.project__list {
+  margin-top: 30px;
+}
+
+.project__title {
+  margin: 14px 0;
+}
+
+.project__button {
+  display: block;
+  color: rgb(18, 18, 18);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -3%;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 90px;
+}
+
+.project__button:hover {
+  color: rgb(173, 24, 24);
+  transition: 0.5s;
+}
+
+.project__btn {
+  width: 1150px;
+  height: 153px;
+  color: rgb(173, 24, 24);
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -3%;
+  text-align: center;
+  border: 1px solid rgb(173, 24, 24);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+
+  cursor: pointer;
+}
+
+.project__btn:hover {
+  border: 1px solid rgb(173, 24, 24);
+  border-radius: 5px;
+  background: rgb(173, 24, 24);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+/* Services */
+
+.container--black {
+  background-color: rgb(18, 18, 18);
+}
+
+.services__list {
+  margin-top: 34px;
+}
+
+.services__item {
+  margin-bottom: 58px;
+}
+.services__item:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.services__img {
+  margin-bottom: 15px;
+}
+
+.services__title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.services__img__text {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+/* Our works */
+
+.section--full__screen {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.our__works {
+  height: 717px;
+  background: url("/Metrica/resource/image/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.out__works__text {
+  width: 443px;
+  height: 82px;
+  position: absolute;
+  top: 575px;
+  left: 125px;
+
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+}
+
+/* contacts */
+
+.contacts__title::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("/Metrica/resource/image/contacts.png");
+  margin-bottom: 12px;
+  margin-left: -5px;
+}
+
+.contacts__list {
+  margin-top: 32px;
+}
+
+.contacts__tel {
+  display: block;
+  color: rgb(18, 18, 18);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.contacts__mail {
+  margin-top: 30px;
+  display: block;
+  color: rgb(18, 18, 18);
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
+
+.contacts__mail:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+  opacity: 0.5;
+}
+
+/* Footer */
+.footer {
+  height: 230px;
+}
+
+.footer__item {
+  padding: 70px 0 30px 0;
+}
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
+.footer__nav__button {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-top: 88px;
+  opacity: 0.5;
+}
