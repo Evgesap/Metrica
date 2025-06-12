@@ -57,6 +57,62 @@ section:last-child {
   padding: 0 125px;
 }
 
+/* Scope 1199px */
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  h1 {
+    width: 802px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .about__text {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+/* Scope 767px */
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 31.62px;
+    margin-bottom: 25px;
+  }
+
+  .interior__img {
+    position: relative;
+  }
+
+  .interior__img__text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .about__text {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
 /* Header */
 
 .header__logo__img {
@@ -100,9 +156,11 @@ section:last-child {
 .interior__img {
   margin-top: 30px;
   position: relative;
-  width: 1150px;
+  width: 100%;
   height: 500px;
   background-image: url("/Metrica/resource/image/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .interior__img__text {
@@ -153,6 +211,10 @@ section:last-child {
 
 .project__list {
   margin-top: 30px;
+}
+
+.project__item__img {
+  width: 100%;
 }
 
 .project__title {
