@@ -1,0 +1,37 @@
+/* Header */
+
+.header__logo__img {
+  display: block;
+  text-decoration: none;
+}
+
+.header__navigation {
+  padding: 35.82px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  gap: 61px;
+}
+
+.header__nav__button {
+  display: block;
+  color: rgba(18, 18, 18, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__nav__button:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1px;
+  opacity: 0.5;
+}
