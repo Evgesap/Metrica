@@ -29,3 +29,30 @@
 .about__btn:active {
   transform: scale(0.98);
 }
+
+/* Scope 1199px */
+
+@media (max-width: 1199px) {
+  .about__text {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+/* Scope 767px */
+
+@media (max-width: 767px) {
+  .about__text {
+    margin-top: 20px;
+    width: 346px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about__btn {
+    padding: 15.21px 30.41px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
