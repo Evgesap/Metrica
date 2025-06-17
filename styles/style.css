@@ -1,6 +1,9 @@
 @import "/Metrica/styles/header.css";
+@import "/Metrica/styles/intro.css";
+@import "/Metrica/styles/about.css";
 @import "/Metrica/styles/project.css";
 @import "/Metrica/styles/services.css";
+@import "/Metrica/styles/gallary.css";
 @import "/Metrica/styles/contacts.css";
 @import "/Metrica/styles/footer.css";
 
@@ -11,7 +14,7 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   width: 100%;
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
 }
 
 h1 {
@@ -49,105 +52,31 @@ section {
 }
 
 section:nth-of-type(2) {
+  width: 1400px;
   padding-bottom: 0;
 }
 
-section:last-child {
+section:last-child,
+.section__black {
   padding: 150px 0;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1400px;
+  width: 1150px;
   background-color: #ffffff;
-  padding: 0 125px;
 }
 
-/* Interior */
-
-.interior__img {
-  margin-top: 30px;
-  position: relative;
+.section__black {
   width: 100%;
-  height: 500px;
-  background-image: url("/Metrica/resource/image/Rectangle\ 1.png");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-color: rgb(18, 18, 18);
 }
-
-.interior__img__text {
-  position: absolute;
-  left: 40px;
-  bottom: 40px;
-  width: 430px;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: -0.03em;
-  color: #ffffff;
+.container--black {
+  background-color: rgb(18, 18, 18);
 }
-
-/* About */
-
-.about {
-  max-width: 1048px;
-}
-
-.about__text {
-  margin-top: 30px;
-  font-size: 45px;
-  font-weight: 400;
-  font-weight: 400;
-  line-height: 61px;
-  letter-spacing: -0.03em;
-  text-align: left;
-}
-
-.about__btn {
-  margin-top: 30px;
-  display: inline-block;
-  padding: 23px 40px;
-  font-size: 19px;
-  border: 1px solid rgb(173, 24, 24);
-  border-radius: 5px;
-  background: rgb(173, 24, 24);
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-}
-
-.about__btn:active {
-  transform: scale(0.98);
-}
-
-/* Our works */
-
-.section--full__screen {
-  max-width: 1400px;
-  margin: 0 auto;
+.container--gallary {
+  width: 100%;
   padding: 0;
-}
-
-.our__works {
-  height: 717px;
-  background: url("/Metrica/resource/image/Rectangle\ 9.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  position: relative;
-}
-
-.out__works__text {
-  width: 443px;
-  height: 82px;
-  position: absolute;
-  top: 575px;
-  left: 125px;
-
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 41px;
-  letter-spacing: -0.03em;
 }
 
 /* Scope 1199px */
@@ -155,7 +84,7 @@ section:last-child {
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 17px 0 15px;
   }
 
   h1 {
@@ -201,7 +130,7 @@ section:last-child {
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 15px;
+    padding: 0 13px 12px;
   }
 
   section {
