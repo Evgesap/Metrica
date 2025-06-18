@@ -45,7 +45,7 @@
 @media (max-width: 767px) {
   .about__text {
     margin-top: 20px;
-    width: 346px;
+    width: 100%;
     font-size: 22px;
     line-height: 30px;
   }
