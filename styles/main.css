@@ -106,16 +106,6 @@ section:last-child,
   section:last-child {
     padding: 120px 0;
   }
-
-  .project__item__img {
-    width: 928px;
-    height: 450px;
-  }
-
-  .project__button {
-    width: 100%;
-    margin-bottom: 80px;
-  }
 }
 
 /* Scope 767px */
@@ -147,22 +137,5 @@ section:last-child,
   h3 {
     font-size: 18px;
     line-height: 25px;
-  }
-
-  .project__item__img {
-    width: 350px;
-    height: 250px;
-  }
-
-  .project__button {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 49px;
-  }
-
-  .project__btn {
-    width: 350px;
-    height: 100px;
-    font-size: 22px;
   }
 }

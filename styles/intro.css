@@ -8,7 +8,7 @@
   position: relative;
   width: 100%;
   height: 500px;
-  background-image: url("/Metrica/resource/image/Rectangle\ 1.png");
+  background-image: url("/Metrica/resource/image/intro.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -69,6 +69,6 @@
 
 @media (max-width: 400px) {
   .intro__img {
-    background-image: url(/Metrica/resource/image/Rectangle\ 10.png);
+    background-image: url("/Metrica/resource/image/intro_mobile.png");
   }
 }
