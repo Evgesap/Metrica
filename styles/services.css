@@ -8,6 +8,7 @@
 
 .services__box {
   width: calc(50% - 5.5px);
+  height: auto;
 }
 
 .services__img__text {
@@ -53,4 +54,49 @@
 .services__button:hover {
   opacity: 0.5;
   transition: 0.5s;
+}
+
+@media (max-width: 1199px) {
+  .services__box {
+    width: calc(50% - 5px);
+  }
+
+  .services__img__text {
+    margin-top: 15px;
+  }
+
+  .services__img__text {
+    font-size: 25px;
+  }
+
+  .services__button {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services__title {
+    font-size: 14px;
+  }
+
+  .services__boxes {
+    margin-top: 20px;
+    grid-row: 60px;
+  }
+
+  .services__box {
+    width: 100%;
+  }
+
+  .services__img__text {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .services__button {
+    height: 100px;
+    padding: 36px 37px;
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
