@@ -8,7 +8,34 @@
 
 .services__box {
   width: calc(50% - 5.5px);
-  height: auto;
+}
+
+.services__img.pencil {
+  height: 315px;
+  background: url(/Metrica/resource/image/pencil.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__img.palette {
+  height: 315px;
+  background: url(/Metrica/resource/image/palette.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__img.project {
+  height: 315px;
+  background: url(/Metrica/resource/image/project.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services__img.warehouse {
+  height: 315px;
+  background: url(/Metrica/resource/image/warehouse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .services__img__text {
