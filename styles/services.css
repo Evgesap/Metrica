@@ -12,30 +12,75 @@
 
 .services__img.pencil {
   height: 315px;
-  background: url(/Metrica/resource/image/pencil.png);
+  background: url("/Metrica/resource/image/pencil.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .services__img.palette {
   height: 315px;
-  background: url(/Metrica/resource/image/palette.png);
+  background: url("/Metrica/resource/image/palette.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .services__img.project {
   height: 315px;
-  background: url(/Metrica/resource/image/project.png);
+  background: url("/Metrica/resource/image/project.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .services__img.warehouse {
   height: 315px;
-  background: url(/Metrica/resource/image/warehouse.png);
+  background: url("/Metrica/resource/image/warehouse.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.services__label-wrapper.upper-row {
+  padding: 31.51px 0 0 30px;
+}
+
+.services__label-wrapper.lower-row {
+  padding: 33.85px 0 0 30px;
+}
+
+.services__label {
+  width: 163px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(173, 24, 24);
+}
+
+.label__pencil {
+  width: 163px;
+  height: 40px;
+}
+
+.label__palette {
+  width: 163px;
+  height: 40px;
+}
+
+.label__project {
+  width: 194px;
+  height: 40px;
+}
+
+.label__warehouse {
+  width: 211px;
+  height: 40px;
+}
+
+.services__label__text {
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 27px;
+  letter-spacing: -0.03em;
 }
 
 .services__img__text {
@@ -88,11 +133,20 @@
     width: calc(50% - 5px);
   }
 
-  .services__img__text {
-    margin-top: 15px;
+  .services__label-wrapper.upper-row {
+    padding: 31px 0 0 32px;
+  }
+
+  .services__label-wrapper.lower-row {
+    padding: 32px 0 0 30px;
+  }
+
+  .services__label__text {
+    font-size: 20px;
   }
 
   .services__img__text {
+    margin-top: 15px;
     font-size: 25px;
   }
 
@@ -113,6 +167,38 @@
 
   .services__box {
     width: 100%;
+  }
+
+  .label__pencil {
+    width: 123px;
+    height: 30px;
+  }
+
+  .label__palette {
+    width: 124px;
+    height: 30px;
+  }
+
+  .label__project {
+    width: 148px;
+    height: 30px;
+  }
+
+  .label__warehouse {
+    width: 160px;
+    height: 30px;
+  }
+
+  .services__label-wrapper.upper-row {
+    padding: 23px 0 0 24px;
+  }
+
+  .services__label-wrapper.lower-row {
+    padding: 24px 0 0 22px;
+  }
+
+  .services__label__text {
+    font-size: 14px;
   }
 
   .services__img__text {
