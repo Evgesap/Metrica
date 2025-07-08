@@ -1,0 +1,32 @@
+.review__box-inner {
+  margin-top: 30px;
+}
+
+.review__row {
+  display: flex;
+  gap: 49px;
+}
+
+.review__col {
+  width: calc(50% -25.5px);
+}
+
+.review__box {
+  width: 530px;
+  height: 390px;
+}
+
+.review__title {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+}
+
+.review__text {
+  margin-top: 14px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
