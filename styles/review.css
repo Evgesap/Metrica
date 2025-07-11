@@ -4,16 +4,21 @@
 
 .review__row {
   display: flex;
+  flex-wrap: wrap;
   gap: 49px;
+  row-gap: 80px;
 }
 
 .review__col {
   width: calc(50% - 24.5px);
 }
 
-.review__box {
+.review__box.upper__box {
   width: 530px;
-  height: 390px;
+}
+
+.review__box.lower__box {
+  width: 861px;
 }
 
 .review__title {
@@ -49,9 +54,14 @@
     width: calc(50% - 5px);
   }
 
-  .review__box {
-    width: 459px;
-    /* height: 350px; */
+  .review__box.upper__box {
+    width: 100%;
+    height: auto;
+  }
+
+  .review__box.lower__box {
+    margin-top: 0;
+    width: 694px;
   }
 
   .review__title {
@@ -84,10 +94,13 @@
     width: 100%;
   }
 
-  .review__box {
-    width: 349px;
+  .review__box.upper__box {
+    width: 100%;
   }
 
+  .review__box.lower__box {
+    width: 100%;
+  }
   .review__title {
     font-size: 25px;
   }

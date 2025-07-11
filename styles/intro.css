@@ -27,7 +27,7 @@
 
 @media (max-width: 1199px) {
   .intro__text {
-    width: 802px;
+    width: 100%;
   }
 
   .intro__img {
