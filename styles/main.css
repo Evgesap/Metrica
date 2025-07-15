@@ -124,14 +124,20 @@ section:last-child,
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 13px 12px;
+    padding: 0 13px 0 12px;
   }
 
   section {
     padding-bottom: 80px;
   }
 
-  section:last-child {
+  button {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  section:last-child,
+  .section__black {
     padding: 80px 0;
   }
 
