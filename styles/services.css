@@ -1,3 +1,13 @@
+.services__title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  text-transform: uppercase;
+}
+
 .services__boxes {
   margin-top: 30px;
   display: flex;
@@ -8,42 +18,26 @@
 
 .services__box {
   width: calc(50% - 5.5px);
+  position: relative;
 }
 
-.services__img.pencil {
-  height: 315px;
-  background-image: url("/Metrica/resource/image/pencil.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.services__img {
+  width: 100%;
+  height: auto;
 }
 
-.services__img.palette {
-  height: 315px;
-  background-image: url("/Metrica/resource/image/palette.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.services__label-wrapper {
+  position: absolute;
 }
 
-.services__img.project {
-  height: 315px;
-  background-image: url("/Metrica/resource/image/project.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.label__upper-row {
+  top: 31.51px;
+  left: 30px;
 }
 
-.services__img.warehouse {
-  height: 315px;
-  background-image: url("/Metrica/resource/image/warehouse.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.services__label-wrapper.upper-row {
-  padding: 31.51px 0 0 30px;
-}
-
-.services__label-wrapper.lower-row {
-  padding: 33.85px 0 0 30px;
+.label__lower-row {
+  top: 33.85px;
+  left: 30px;
 }
 
 .services__label {
@@ -56,12 +50,7 @@
   background: rgb(173, 24, 24);
 }
 
-.label__pencil {
-  width: 163px;
-  height: 40px;
-}
-
-.label__palette {
+.services__label {
   width: 163px;
   height: 40px;
 }
@@ -85,19 +74,6 @@
 
 .services__img__text {
   margin-top: 25px;
-}
-
-.services__title {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: -0.03em;
-  color: rgb(255, 255, 255);
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.services__img__text {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
@@ -108,23 +84,13 @@
 
 .services__button {
   margin-top: 104px;
-  display: inline-block;
-  width: 100%;
-  height: 153px;
-  text-align: center;
-  padding: 53px 125px;
+  background-color: rgb(173, 24, 24);
   color: rgb(255, 255, 255);
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: -0.03em;
-  line-height: 41px;
-  border-radius: 5px;
-  background: rgb(173, 24, 24);
-  cursor: pointer;
+  border: 1px solid rgb(173, 24, 24);
 }
 
 .services__button:hover {
-  opacity: 0.5;
+  opacity: 0.8;
   transition: 0.5s;
 }
 
@@ -133,12 +99,14 @@
     width: calc(50% - 5px);
   }
 
-  .services__label-wrapper.upper-row {
-    padding: 31px 0 0 32px;
+  .label__upper-row {
+    top: 31px;
+    left: 32px;
   }
 
-  .services__label-wrapper.lower-row {
-    padding: 32px 0 0 30px;
+  .label__lower-row {
+    top: 32px;
+    left: 30px;
   }
 
   .services__label__text {
@@ -188,13 +156,14 @@
     width: 160px;
     height: 30px;
   }
-
-  .services__label-wrapper.upper-row {
-    padding: 23px 0 0 24px;
+  .label__upper-row {
+    top: 23px;
+    left: 24px;
   }
 
-  .services__label-wrapper.lower-row {
-    padding: 24px 0 0 22px;
+  .label__lower-row {
+    top: 24px;
+    left: 22px;
   }
 
   .services__label__text {
