@@ -4,7 +4,7 @@
 @import "/Metrica/styles/project.css";
 @import "/Metrica/styles/services.css";
 @import "/Metrica/styles/review.css";
-@import "/Metrica/styles/gallary.css";
+@import "/Metrica/styles/gallery.css";
 @import "/Metrica/styles/contacts.css";
 @import "/Metrica/styles/footer.css";
 
@@ -85,11 +85,6 @@ section:last-child,
 
 .container--black {
   background-color: rgb(18, 18, 18);
-}
-
-.container--gallary {
-  width: 100%;
-  padding: 0;
 }
 
 /* Scope 1199px */

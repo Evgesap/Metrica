@@ -1,0 +1,21 @@
+.gallery {
+  position: relative;
+}
+
+.gallery__title-wrapper {
+  position: absolute;
+  top: 67px;
+  background: transparent;
+}
+
+.gallery__title {
+  display: inline;
+  color: rgb(255, 255, 255);
+  font-family: Manrope;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
