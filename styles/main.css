@@ -51,7 +51,7 @@ section {
   padding-bottom: 150px;
 }
 
-button {
+.btn {
   width: 100%;
   height: 153px;
   font-size: 30px;
@@ -125,7 +125,7 @@ section:last-child,
     padding-bottom: 80px;
   }
 
-  button {
+  .btn {
     font-size: 16px;
     line-height: 22px;
   }

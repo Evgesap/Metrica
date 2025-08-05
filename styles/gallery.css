@@ -46,45 +46,27 @@
 .gallery__controls-wrapper {
   position: absolute;
   width: 100%;
+  left: -25px;
   bottom: 165px;
 }
 
 .gallery__control-prev {
-  width: 19.62px;
-  height: 33.33px;
+  width: 40px;
+  height: 40px;
   background: transparent;
-  margin: 0;
-  padding: 0;
-  border-radius: 0;
   border: none;
-  font: inherit;
-  color: inherit;
   outline: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 55px;
 }
 
 .gallery__control-next {
-  width: 19.62px;
-  height: 33.33px;
+  width: 40px;
+  height: 40px;
   background: transparent;
-  margin: 0;
-  padding: 0;
-  border-radius: 0;
   border: none;
-  font: inherit;
-  color: inherit;
   outline: none;
-}
-
-.gallery__control-prev:hover {
-  border: none;
-  border-radius: none;
-  background: none;
-  transition: 0.5s;
-}
-
-.gallery__control-next:hover {
-  border: none;
-  border-radius: none;
-  background: none;
-  transition: 0.5s;
+  padding: 0;
+  margin: 0;
 }
