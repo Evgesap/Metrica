@@ -104,6 +104,8 @@
   text-align: left;
 }
 
+/* Scope 1199px */
+
 @media (max-width: 1199px) {
   .gallery__title-wrapper {
     top: 80px;
@@ -133,7 +135,9 @@
   }
 }
 
-@media (max-width: 400px) {
+/* Scope 767px */
+
+@media (max-width: 767px) {
   .gallery__title-wrapper {
     top: 61px;
   }

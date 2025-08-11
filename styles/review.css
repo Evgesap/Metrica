@@ -37,6 +37,10 @@
 }
 
 @media (max-width: 1199px) {
+  .section__review {
+    margin-top: 120px;
+  }
+
   .review__row {
     display: flex;
     column-gap: 10px;
@@ -58,6 +62,9 @@
 }
 
 @media (max-width: 767px) {
+  .section__review {
+    margin-top: 80px;
+  }
   .review__box-inner {
     margin-top: 22px;
   }
