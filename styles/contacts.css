@@ -100,7 +100,14 @@
     font-size: 35px;
   }
 
+  .tel::before {
+    width: 9.75px;
+    height: 16.5px;
+  }
+
   .mail::before {
+    width: 15px;
+    height: 12px;
     top: 127px;
   }
 }
