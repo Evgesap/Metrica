@@ -64,7 +64,7 @@ section {
   cursor: pointer;
 }
 
-.section__black {
+.section__services {
   padding: 150px 0;
   width: 100%;
   background-color: rgb(18, 18, 18);
@@ -73,10 +73,6 @@ section {
 .container {
   margin: 0 auto;
   width: 1150px;
-}
-
-.container--black {
-  background-color: rgb(18, 18, 18);
 }
 
 /* Scope 1199px */

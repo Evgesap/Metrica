@@ -1,3 +1,9 @@
+.section__services {
+  padding: 150px 0;
+  width: 100%;
+  background-color: rgb(18, 18, 18);
+}
+
 .services__title {
   font-size: 18px;
   font-weight: 400;
