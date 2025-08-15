@@ -24,7 +24,7 @@
 .mail::before {
   content: "";
   background: url("/Metrica/resource/image/contacts-mail.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 20px;
   height: 16px;
@@ -66,4 +66,41 @@
   text-decoration-thickness: 2px;
   text-underline-offset: 9px;
   line-height: 50px;
+}
+
+@media (max-width: 1199px) {
+  .contacts__inner {
+    gap: 114px;
+  }
+
+  .contacts__tel {
+    font-size: 45px;
+  }
+
+  .contacts__mail {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts__inner {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .contacts__item {
+    margin-top: 58px;
+  }
+
+  .contacts__tel {
+    font-size: 35px;
+  }
+
+  .contacts__mail {
+    font-size: 35px;
+  }
+
+  .mail::before {
+    top: 127px;
+  }
 }
