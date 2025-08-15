@@ -134,6 +134,9 @@
 /* Scope 767 */
 
 @media (max-width: 767px) {
+  .section__services {
+    padding: 80px 0;
+  }
   .services__title {
     font-size: 14px;
   }
