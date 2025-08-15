@@ -13,7 +13,7 @@
 .tel::before {
   content: "";
   background: url("/Metrica/resource/image/contacts_tel.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 13px;
   height: 22px;
