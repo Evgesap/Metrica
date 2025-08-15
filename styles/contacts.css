@@ -23,7 +23,7 @@
 
 .mail::before {
   content: "";
-  background: url("/Metrica/resource/image/contacts-mail.svg");
+  background: url("/Metrica/resource/image/contacts_mail.svg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 20px;
