@@ -12,7 +12,7 @@
 
 .tel::before {
   content: "";
-  background: url("/Metrica/resource/image/contacts_tel.svg");
+  background: url(/Metrica/resource/image/contacts_tel.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 13px;
@@ -23,7 +23,7 @@
 
 .mail::before {
   content: "";
-  background: url("/Metrica/resource/image/contacts_mail.svg");
+  background: url(/Metrica/resource/image/contacts_mail.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 20px;
