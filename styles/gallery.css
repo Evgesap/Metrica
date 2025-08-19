@@ -155,13 +155,12 @@
   }
 
   .gallery__slide-img {
-    width: 100%;
+    object-fit: fill;
     height: 408px;
-    object-position: center;
   }
 
   .gallery__controls-wrapper {
-    bottom: calc(50%);
+    bottom: 50%;
   }
 
   .gallery__controls {
