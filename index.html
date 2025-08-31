@@ -169,7 +169,15 @@
                         <h3 class="services__img__text">Комплектация</h3>
                     </div>
                 </div>
-                <button class="btn services__button">Заказать услугу</button>
+                <button class="btn services__button js-btn">Заказать услугу</button>
+            </div>
+            <div class="popup js-popup">
+                <div class="popup__content js-popup__content">
+                    <p class="popup__title">Заказать услугу</p>
+                    <div class="popup__close-btn js-popup__close-btn">
+                        <img src="/Metrica/resource/image/button_close.svg" alt="кнопка закрыть" class="popup__img-btn">
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Review -->
@@ -297,12 +305,12 @@
             <div class="container">
                 <h2 id="contacts-link">Контакты</h2>
                 <div class="contacts__inner">
-                    <p class="contacts__item tel">
+                    <div class="contacts__item tel">
                         <a href="tel:+7 935  895-45-35" class="contacts__tel">+7 935 895-45-35</a>
-                    </p>
-                    <p class="contacts__item mail">
+                    </div>
+                    <div class="contacts__item mail">
                         <a href="mailto:hello@mail.com" class="contacts__mail">hello@mail.com</a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -322,6 +330,7 @@
         </div>
     </footer>
     <script src="/Metrica/gallery.js"></script>
+    <script src="/Metrica/popup.js"></script>
 </body>
 
 </html>

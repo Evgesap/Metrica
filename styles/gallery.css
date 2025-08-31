@@ -1,10 +1,11 @@
 .section__gallery {
   width: 100%;
+  padding: 0;
 }
 .gallery {
   position: relative;
   width: 100%;
-  height: 980px;
+  height: 717px;
 }
 
 .gallery__title-wrapper {
@@ -33,7 +34,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-
+  object-fit: cover;
   opacity: 0;
 }
 
@@ -43,9 +44,7 @@
 
 .gallery__slide-img {
   width: 100%;
-  height: 980px;
-  object-fit: cover;
-  display: block;
+  height: 100%;
 }
 
 .gallery__controls-wrapper {

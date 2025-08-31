@@ -8,6 +8,7 @@
 @import "/Metrica/styles/gallery.css";
 @import "/Metrica/styles/contacts.css";
 @import "/Metrica/styles/footer.css";
+@import "/Metrica/styles/popup.css";
 
 html {
   scroll-behavior: smooth;
@@ -89,10 +90,6 @@ section {
 
   section {
     margin-bottom: 120px;
-  }
-
-  .section__black {
-    padding: 120px 0;
   }
 }
 
