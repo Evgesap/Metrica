@@ -79,11 +79,13 @@
 
   .burger__btn {
     position: absolute;
-    top: 35.82px;
+    top: 11px;
     right: 0;
     display: block;
     z-index: 100;
     cursor: pointer;
+    width: 50px;
+    height: 50px;
   }
 
   .burger-btn_open {
@@ -92,7 +94,7 @@
 
   .burger__line {
     position: absolute;
-    top: 0;
+    top: 25px;
     right: 15px;
     width: 50px;
     height: 2px;
