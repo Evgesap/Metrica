@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   justify-content: stretch;
-  gap: 104px;
+  gap: 118px;
 }
 
 .contacts__item {
@@ -18,7 +18,7 @@
   width: 13px;
   height: 22px;
   position: absolute;
-  top: 27px;
+  top: 25px;
 }
 
 .mail::before {
@@ -26,10 +26,10 @@
   background: url(/Metrica/resource/image/contacts_mail.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  width: 20px;
-  height: 16px;
+  width: 22px;
+  height: 18px;
   position: absolute;
-  top: 27px;
+  top: 26px;
 }
 
 .contacts__tel {
@@ -44,17 +44,13 @@
 
 .contacts__tel:hover {
   opacity: 0.5;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 9px;
-  line-height: 50px;
 }
 
 .contacts__mail {
   color: rgb(18, 18, 18);
   font-size: 60px;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 40px;
   letter-spacing: -0.03em;
   text-align: left;
   text-decoration: none;
@@ -64,8 +60,7 @@
   opacity: 0.5;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-underline-offset: 9px;
-  line-height: 50px;
+  text-underline-offset: 14px;
 }
 
 @media (max-width: 1199px) {

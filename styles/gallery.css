@@ -5,7 +5,7 @@
 .gallery {
   position: relative;
   width: 100%;
-  height: 817px;
+  height: 717px;
 }
 
 .gallery__title-wrapper {
@@ -49,19 +49,19 @@
 
 .gallery__controls-wrapper {
   position: absolute;
-  width: 100%;
-  bottom: 155px;
+  width: 98%;
+  bottom: 153px;
 }
 
 .gallery__controls {
   display: flex;
   justify-content: start;
-  gap: 14px;
+  gap: 2px;
 }
 .gallery__control-next,
 .gallery__control-prev {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: transparent;
   border: none;
   outline: none;
